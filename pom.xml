@@ -27,7 +27,6 @@
 			<groupId>supertab</groupId>
 			<artifactId>supertab</artifactId>
 			<version>1.2</version>
-			<type>jar</type>
 			<scope>system</scope>
 			<systemPath>${basedir}/depend/SuperTab.jar</systemPath>
 	    </dependency>
