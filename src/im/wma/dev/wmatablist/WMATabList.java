@@ -1,5 +1,5 @@
 /* Main class */
-package im.wma.WMATablist;
+package im.wma.dev.wmatablist;
 
 import me.bubbleguj.supertab.SuperTab;
 
@@ -16,7 +16,7 @@ import org.bukkit.event.EventPriority;
 import org.bukkit.event.player.PlayerJoinEvent;
 import java.util.ArrayList;
 
-public class WMATablist extends JavaPlugin implements Listener {
+public class WMATabList extends JavaPlugin implements Listener {
 	public void onEnable() {
         getServer().getPluginManager().registerEvents(this, this);
     }
