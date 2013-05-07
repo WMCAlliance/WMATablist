@@ -1,5 +1,5 @@
 name: WMATablist
-main: im.wma.wmatablist.WMATablist
+main: im.wma.dev.wmatablist.WMATablist
 version: 0.1
 dev-url: http://home.wizardcm.com:8080/job/WMATablist
 website: http://wma.im
