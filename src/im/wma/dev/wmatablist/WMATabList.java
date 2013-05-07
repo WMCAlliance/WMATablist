@@ -29,6 +29,6 @@ public class WMATabList extends JavaPlugin implements Listener {
 		messages.add("&4Minecraft");
 		messages.add("&2Alliance");
 		
-		SuperTab.setTab(messages);
+		SuperTab.setTab(messages, isInitialized());
 	}
 }
