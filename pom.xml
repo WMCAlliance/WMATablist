@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>im.wma.dev.wmatablist</groupId>
+  <groupId>im.wma.wmatablist</groupId>
   <artifactId>wmatablist</artifactId>
   <version>0.1-DEV</version>
   <packaging>jar</packaging>
@@ -21,15 +21,15 @@
         <dependency>
             <groupId>org.bukkit</groupId>
             <artifactId>bukkit</artifactId>
-            <version>1.5.2-R0.1</version>
-        </dependency>	   
-		<dependency>
-			<groupId>supertab</groupId>
-			<artifactId>supertab</artifactId>
-			<version>1.2</version>
-			<scope>system</scope>
-			<systemPath>${basedir}/depend/SuperTab.jar</systemPath>
-	    </dependency>
+            <version>LATEST</version>
+        </dependency>           
+                <dependency>
+                        <groupId>supertab</groupId>
+                        <artifactId>supertab</artifactId>
+                        <version>1.2</version>
+                        <scope>system</scope>
+                        <systemPath>${basedir}/depend/SuperTab.jar</systemPath>
+            </dependency>
     </dependencies>
 
   <name>WMATablist</name>
@@ -37,30 +37,30 @@
 
   <build>
     <sourceDirectory>src/</sourceDirectory>
-	<resources>
-		<resource>
-			<directory>${project.basedir}/res</directory>
-			<filtering>true</filtering>
-			<includes>
-				<include>plugin.yml</include>
-			</includes>
-		</resource>
-	</resources>
+        <resources>
+                <resource>
+                        <directory>${project.basedir}/res</directory>
+                        <filtering>true</filtering>
+                        <includes>
+                                <include>plugin.yml</include>
+                        </includes>
+                </resource>
+        </resources>
   </build>
 
   <issueManagement>
-  	<system>GitHub Issues</system>
-  	<url>https://github.com/WMCAlliance/WMATablist/issues</url>
+          <system>GitHub Issues</system>
+          <url>https://github.com/WMCAlliance/WMATablist/issues</url>
   </issueManagement>
   <scm>
-  	<url>https://github.com/WMCAlliance/WMATablist</url>
-  	<connection>scm:git:git://github.com/WMCAlliance/WMATablist.git</connection>
-  	<developerConnection>scm:git:git@github.com:WMCAlliance/WMATablist.git</developerConnection>
+          <url>https://github.com/WMCAlliance/WMATablist</url>
+          <connection>scm:git:git://github.com/WMCAlliance/WMATablist.git</connection>
+          <developerConnection>scm:git:git@github.com:WMCAlliance/WMATablist.git</developerConnection>
   </scm>
   <description>Custom tab list.
 </description>
   <ciManagement>
-  	<system>Jenkins</system>
-  	<url>http://netbook.home.wizardcm.com:8080/job/WMATablist/</url>
+          <system>Jenkins</system>
+          <url>http://ci.blny/job/WMATabList/</url>
   </ciManagement>
 </project>
