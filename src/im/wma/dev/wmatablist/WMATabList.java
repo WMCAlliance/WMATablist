@@ -24,11 +24,15 @@ public class WMATabList extends JavaPlugin implements Listener {
 	@EventHandler (priority = EventPriority.HIGHEST)
 	public void onJoin(PlayerJoinEvent event) {
 		
-		ArrayList<String> messages = new ArrayList<String>();
+		SuperTab.reloadTabForAll();
+		getLogger().info("Debug: Tab Reloaded?");
+		
+		
+	/*ArrayList<String> messages = new ArrayList<String>();
 		messages.add("&1Worldwide");
 		messages.add("&4Minecraft");
 		messages.add("&2Alliance");
 		
-		SuperTab.setTab(messages);
+		SuperTab.setTab(null, messages, isInitialized()); */
 	}
 }
